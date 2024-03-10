@@ -48,3 +48,17 @@ setuptools>=65.5.1 # Snyk vulnerability fix
 # albumentations>=1.0.3
 # pycocotools>=2.0.6  # COCO mAP
 wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
+
+
+# GUI
+PyQt5==5.15.7
+PyQt5-Qt5==5.15.2
+PyQt5-sip==12.11.0
+PyQt5-stubs==5.15.6.0
+mss~=7.0.1
+
+# Web
+flask==2.2.2
+
+# Release
+nuitka==0.6.18.4
