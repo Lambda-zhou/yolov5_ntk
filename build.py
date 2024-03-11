@@ -37,6 +37,7 @@ if __name__ == "__main__":
     enter = 'Yolo2onnxDetectProjectDemo'
     output_dir = os.path.join(os.getcwd(), 'build_file')
     os.makedirs(output_dir, exist_ok=True)
-    exe_path = build(enter, input("[Debug(0) / Release(1)]："))
+    exe_path = build(enter, 1))
+    # exe_path = build(enter, input("[Debug(0) / Release(1)]："))
     movefile(exe_path)
     # pass
